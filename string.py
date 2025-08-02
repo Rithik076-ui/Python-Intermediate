@@ -1,20 +1,20 @@
-# from timeit import default_timer as timer
-# list3 = ['r'] * 1000000
-# # print(list3)
+from timeit import default_timer as timer
+list3 = ['r'] * 1000000
+# print(list3)
 
-# #bad
-# start = timer()
-# mylist = ""
-# for i in list3:
-#     mylist += i
-# stop = timer()
-# print(stop-start)
+#bad
+start = timer()
+mylist = ""
+for i in list3:
+    mylist += i
+stop = timer()
+print(stop-start)
 
-# #good and Faster
-# start = timer()
-# mylist="".join(list3)
-# stop = timer()
-# print(stop-start)
+#good and Faster
+start = timer()
+mylist="".join(list3)
+stop = timer()
+print(stop-start)
 
 #format{} f-strings
 rk="tom"
