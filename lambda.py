@@ -22,8 +22,8 @@ p_sorted = sorted(p,key=lambda x: x[0] + x[1])
 print(p)
 print(p_sorted)
 
-def sort_by_y(x):
-    return x[1]
+# def sort_by_y(x):
+#     return x[1]
 
 
 
