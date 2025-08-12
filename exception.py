@@ -1,43 +1,43 @@
-# #Errors and Exception
-# x = 5
-# if x < 0:
-#     raise Exception('x sholud be positive')
+#Errors and Exception
+x = 5
+if x < 0:
+    raise Exception('x sholud be positive')
 
-# x = 5
-# assert (x>=0), "x is not positive"
+x = 5
+assert (x>=0), "x is not positive"
 
-# try:
-#     a = 5 / 0
-# except:
-#     print('an error happened')
+try:
+    a = 5 / 0
+except:
+    print('an error happened')
 
-# try:
-#     a = 5 / 0
-# except Exception as e:
-#     print(e)
+try:
+    a = 5 / 0
+except Exception as e:
+    print(e)
 
-# try:
-#     a = 5 / 0
-#     b = a + '10'
-# except ZeroDivisionError as r:
-#     print(r)
-# except TypeError as r :
-#     print(r)
-# else:
-#     print("everthing is fine")
+try:
+    a = 5 / 0
+    b = a + '10'
+except ZeroDivisionError as r:
+    print(r)
+except TypeError as r :
+    print(r)
+else:
+    print("everthing is fine")
 
 
-# try:
-#     a = 5 / 1
-#     b = a + 4
-# except ZeroDivisionError as r:
-#     print(r)
-# except TypeError as r :
-#     print(r)
-# else:
-#     print("everthing is fine")
-# finally:
-#     print("cleaning up...")
+try:
+    a = 5 / 1
+    b = a + 4
+except ZeroDivisionError as r:
+    print(r)
+except TypeError as r :
+    print(r)
+else:
+    print("everthing is fine")
+finally:
+    print("cleaning up...")
 
 
 
