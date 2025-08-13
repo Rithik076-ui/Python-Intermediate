@@ -1,0 +1,17 @@
+{
+    "firstname":"Rithik",
+    "lastname":"Star",
+    "hobbies": ["running","swimming","singing"],
+    "age": 27,
+    "haschildern":true,
+    "children":[
+        {
+            "firstname":"alex",
+            "age":5
+        },
+        {
+        "firstname":"alex",
+        "age":"7"
+        }
+    ]
+}
